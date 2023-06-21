@@ -39,7 +39,8 @@ i18next
         };
         return acc;
     }, {}),
-    fallbackLng: 'en'
+    fallbackLng: 'en',
+    interpolation: { escapeValue: false }
 });
 
 export function updateLanguage(language) {
