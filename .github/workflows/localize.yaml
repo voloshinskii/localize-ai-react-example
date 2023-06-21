@@ -9,12 +9,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Localize strings
-        uses: voloshinskii/localize-ai@v1.0.2
+        uses: voloshinskii/localize-ai@2754a406fa844d967425dc6797f54cd0d7aa9a6b
         with:
           model: gpt-4
           openai-token: ${{ secrets.OPENAI_TOKEN }}
           locales-path: ./src/localization/locales
           main-locale: en
+          verbose: true
 
       - name: commit and push all changed files
         env:
