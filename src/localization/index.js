@@ -1,5 +1,7 @@
 import i18next from 'i18next';
 import { initReactI18next } from "react-i18next";
+import LanguageDetector from 'i18next-browser-languagedetector';
+
 import enLocale from './locales/en.json';
 import ruLocale from './locales/ru.json';
 import ukLocale from './locales/uk.json';
@@ -27,9 +29,9 @@ export const locales = {
 }
 
 i18next
+    .use(LanguageDetector)
     .use(initReactI18next)
     .init({
-    lng: 'en',
     debug: true,
     resources: locales,
     fallbackLng: 'en'
