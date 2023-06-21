@@ -1,1 +1,5 @@
-{}
+{
+  "hello_world": "Hallo Welt!",
+  "description": "Dies ist eine Beispiel-App, die die \"Localize AI\" Bibliothek verwendet, um die App in mehrere Sprachen zu übersetzen.",
+  "language": "Sprache"
+}
