@@ -1,5 +1,6 @@
 {
   "hello_world": "ハローワールド！",
   "description": "これは、'Localize AI' ライブラリを使用してアプリを複数の言語に翻訳するための例示アプリです。",
-  "language": "言語"
+  "language": "言語",
+  "current_date": "現在の日付は：{date}"
 }
