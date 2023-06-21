@@ -33,7 +33,12 @@ i18next
     .use(initReactI18next)
     .init({
     debug: true,
-    resources: locales,
+    resources: Object.entries(locales).reduce((acc, [locale, translations]) => {
+        acc[locale] = {
+            translation: translations,
+        };
+        return acc;
+    }, {}),
     fallbackLng: 'en'
 });
 
