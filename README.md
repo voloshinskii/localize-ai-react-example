@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Main repository](https://github.com/voloshinskii/localize-ai).
 
 ## Available Scripts
 
