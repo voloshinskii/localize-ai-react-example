@@ -38,3 +38,5 @@ i18next
 export function updateLanguage(language) {
     i18next.changeLanguage(language);
 }
+
+export default i18next;

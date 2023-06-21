@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-[Main repository](https://github.com/voloshinskii/localize-ai).
+[Main repository](https://github.com/voloshinskii/localize-ai)
+[Example site](https://localize-ai-react-example.vercel.app/)
 
 ## Available Scripts
 
