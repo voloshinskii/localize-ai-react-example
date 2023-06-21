@@ -2,5 +2,5 @@
   "hello_world": "Hello World!",
   "description": "This is an example app, using 'Localize AI' library to translate the app to multiple languages.",
   "language": "Language",
-  "current_date": "Current date is: {date}"
+  "current_date": "Current date is: {{date}}"
 }
