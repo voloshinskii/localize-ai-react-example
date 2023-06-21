@@ -4,7 +4,7 @@ import enLocale from './locales/en.json';
 import ruLocale from './locales/ru.json';
 import ukLocale from './locales/uk.json';
 import kaLocale from './locales/ka.json';
-import jpLocale from './locales/jp.json';
+import jaLocale from './locales/ja.json';
 import itLocale from './locales/it.json';
 import esLocale from './locales/es.json';
 import deLocale from './locales/de.json';
@@ -17,7 +17,7 @@ export const locales = {
     ru: ruLocale,
     uk: ukLocale,
     ka: kaLocale,
-    jp: jpLocale,
+    ja: jaLocale,
     it: itLocale,
     es: esLocale,
     de: deLocale,
