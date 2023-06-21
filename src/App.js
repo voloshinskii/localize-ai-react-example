@@ -29,6 +29,9 @@ function App() {
         <p>
           {t('description')}
         </p>
+        <p>
+          {t('current_date', { date: new Date().toLocaleDateString(language) })}
+        </p>
       </header>
     </div>
   );
